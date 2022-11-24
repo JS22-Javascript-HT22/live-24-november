@@ -28,7 +28,7 @@ const gameLoop = setInterval(() => {
 }, speed); // 2000ms = 2s
 
 const timer = setInterval(() => {
-    app.updateTime();
+    app.evalTime();
 }, 1000);
 
 const app = {
